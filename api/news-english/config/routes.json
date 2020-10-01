@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/news-englishes",
+      "handler": "news-english.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/news-englishes/count",
+      "handler": "news-english.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/news-englishes/:id",
+      "handler": "news-english.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/news-englishes",
+      "handler": "news-english.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/news-englishes/:id",
+      "handler": "news-english.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/news-englishes/:id",
+      "handler": "news-english.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -18,6 +18,11 @@
       "collection": "noticias",
       "via": "categories",
       "dominant": true
+    },
+    "news_englishes": {
+      "collection": "news-english",
+      "via": "categories",
+      "dominant": true
     }
   }
 }
